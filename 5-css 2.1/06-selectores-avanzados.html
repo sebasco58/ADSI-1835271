@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>selectores Avanzados</title>
+	<style>
+		/*Selector hijos*/
+		ul>li{
+			background-color: aqua;
+			margin: 4px;
+		}
+		/*selector adyacente*/
+		ul li+li+li{
+			background-color: fuchsia;
+		}
+		/*selector de atributo*/
+		li[class]{
+			background-color: gold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Selectores Avanzados</h1>
+	<ol>
+		<li>
+			kimetsu
+			<ul>
+				<li class="super">tangiro</li>
+				<li>zenuzuke</li>
+				<li>zesuke</li>
+			</ul>
+		</li>
+		<li>
+			shingeki
+			<ul>
+				<li>eren</li>
+				<li>mikasa</li>
+				<li>armin</li>
+			</ul>
+		</li>
+	</ol>
+	
+</body>
+</html>
