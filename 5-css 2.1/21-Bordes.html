@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bordes(Ancho, estilo,color)</title>
+	<style>
+		section.box{
+			border-style: solid;
+			border-color: black;
+			height: 140px;
+			width: 280px;
+		}
+		section.box1{
+			/*ancho bordes*/
+			border-top-width: thin;
+			border-right-width: thick;
+			border-bottom-width: 10px;
+			border-left-width: 5px;
+			/*forma corta*/
+			border-width: thin thick 10px 5px;
+		}
+		section.box2{
+			/*colores borde*/
+			border-top-color: rgb();
+			border-right-style: rgb();
+			border-bottom-color: rgb();
+			border-left-color: rgb();
+		}
+		section.box3{
+			/*estilos bordes*/
+			border: rgb();
+			border-top-style: solid;
+			border-right-style: dotted;
+			border-bottom-style: dashed;
+			border-left-style: double;
+			/*forma corta*/
+			border-style: solid dotted dashed double;
+		}
+		section.box4{
+			border: 20px solid pink;
+		}
+	</style>
+</head>
+<body>
+	<h1>borde(ancho,estilo,color)</h1>
+	<h3>Ancho:</h3>
+	<!-- section.box1 -->
+	<section class="box box1"></section>
+	<h3>color</h3>
+	<section class="box box2"></section>
+	<h3>Estilo</h3>
+	<section class="box box3"></section>
+	<h3>forma corta</h3>
+	<section class="box box4"></section>
+
+</body>
+</html>
