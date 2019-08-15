@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>posicionamiento normal o estático</title>
+	<style>
+		main{
+			margin: 0px auto;
+			width: 960px;
+		}
+		main section{
+			border: 1px solid #555;
+			display: inline-block;
+			padding: 10px;
+			vertical-align: top;
+			width: 448px;
+		}
+		main section.block{
+
+		}
+		main section.inline{
+			margin-left: 16px;
+
+		}
+		main section.block div{
+			border: 1px solid #555;
+			padding: 20px;
+			margin: 5px 0px;
+		}
+		main section.inline div{
+			border: 1px dashed #999;
+			padding: 20px 0px;
+			margin: 5px 0px;
+		}
+		main section.inline div a {
+			border: 1px solid #555;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>posicionamiento normal o estático</h1>
+	<main>
+		<section class="block">
+			<!-- div{tex}*3 -->
+			<h4>Elementos de bloque</h4>
+			<div>elemneto bloque</div>
+			<div>elemneto bloque</div>
+			<div>elemneto bloque</div>
+		</section>
+		<section class="inline">
+			<h4>Elementos Lineas</h4>
+			<div>
+				<a href="">google</a>
+				<a href="">yahoo</a>
+			</div>
+			<div></div>
+		</section>
+	</main>
+</body>
+</html>
