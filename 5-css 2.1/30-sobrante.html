@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contenido sobrante(overflow)</title>
+	<style>
+		section.overflow{
+			margin: 10px auto;
+			width: 500px;
+		}
+		section.overflow div {
+			border: 1px solid #999;
+			display: inline-block;
+			height: 250px;
+			padding: 10px;
+			vertical-align:top;
+			width: 140px;
+		}
+		section.overflow div h3 {
+			background-color: #ccc;
+			padding: 10px;
+			margin:0px;
+		}
+		section.overflow div.box1 { overflow: visible; }
+		section.overflow div.box2 { overflow: hidden; }
+		section.overflow div.box3 { overflow: scroll; }
+
+	</style>
+</head>
+<body>
+	<main>
+		<h1>contenido sobrante(overflow)</h1>
+		<section class="overflow">
+			<div class="box1">
+				<h3>overflow:visible</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facilis, dolore similique maiores? Doloribus, asperiores. Iusto debitis tempora velit repellat sed autem, quaerat commodi, necessitatibus soluta quos libero voluptatibus eum. Beatae quasi iure quam eos consequuntur nobis quo laudantium, placeat neque aliquam doloribus, quod nemo. Illum vel quia laboriosam temporibus.</p>
+			</div>
+			<div class="box2">
+				<h3>overflow:visible</h3>
+				<p>Esse totam, quisquam, sunt explicabo eaque enim, non corporis vel eligendi eveniet voluptates excepturi sit. Iste tempore deleniti, quia, perspiciatis architecto nihil, commodi vero corporis dolores soluta ad nesciunt amet similique, quos laboriosam aliquid voluptatum ut! Nihil delectus nisi tempora, eaque nostrum! Eveniet a minima, accusamus omnis libero ducimus perspiciatis!</p>
+			</div>
+			<div class="box3">
+				<h3>overflow:visible</h3>
+				<p>Nobis aperiam mollitia sunt magni, est et quo cupiditate. Earum rerum perspiciatis officiis explicabo, facere commodi modi a ipsum ab harum maxime nisi mollitia ducimus, reiciendis esse aut accusamus voluptas vel delectus accusantium soluta vitae, magni rem consectetur assumenda. Repudiandae aut, totam hic. Ut provident nihil molestias fugit quae et.</p>
+			</div>
+		</section>
+	</main>
+	
+</body>
+</html>
