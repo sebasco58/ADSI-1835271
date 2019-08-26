@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>texto-spacing</title>
+	<style>
+		section.spacing {
+			margin:10px auto;
+			width: 500px;
+		}
+		section.spacing  div{
+			border:1px solid #235E62;
+			display: inline-block;
+			padding: 10px;
+			vertical-align: top;
+			width: 200px;
+		}
+		section.spacing div.sp1{letter-spacing: 0.5em ; }
+		section.spacing  div.sp2{word-spacing: 2em; }
+	</style>
+</head>
+<body>
+	<main>
+		<h1>texto-spacing</h1>
+		<!-- section.align -->
+		<section class="spacing ">
+			<!-- (div.aling${lorem})*4 -->
+			<div class="sp1">
+				<h5>letter-spacing : 0.5em</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quae non incidunt at repudiandae repellendus cum ipsa modi, sit</p>
+				<p>iusto ad veritatis cumque similique expedita recusandae nam, provident obcaecati nisi?</p>
+			 </div>
+
+			<div class="sp2">
+				<h5>word-spacing : 2em</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quae non incidunt at repudiandae repellendus cum ipsa modi, sit</p>
+					<p>iusto ad veritatis cumque similique expedita recusandae nam, provident obcaecati nisi?</p>
+			</div>
+		</section>
+	</main>
+	
+</body>
+</html>
