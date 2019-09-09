@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nuevos selectores</title>
+	<link rel="stylesheet" href="css/master.css">
+	<style>
+		/*li:first-of-type*/
+		ul.planguages li:first-of-type{
+			background-color: aqua;
+			color:green;
+		}
+		ul.planguages li:last-of-type{
+			background-color: pink;
+			color:aqua;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Nuevos Selectores</h1>
+		</header>
+		<section>
+			<h3>:first-of-type(selecciona el priemr eleemneto de tipo li)</h3>
+		
+			<ul class="planguages">
+				<li>Python</li>
+				<li>Ruby</li>
+				<li>PHP</li>
+			</ul>
+			<h3>:first-of-type(selecciona el ultimo eleemneto de tipo li)</h3>
+		
+			<ul class="planguages">
+				<li>Python</li>
+				<li>Ruby</li>
+				<li>PHP</li>
+			</ul>
+		</section>
+	</main>
+	
+</body>
+</html>
