@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animaciones </title>
+	<link rel="stylesheet" href="css/master.css">
+	<style>
+		section{
+			background: url(imgs/jardin.jpg)  no-repeat center;
+			background-size: cover;
+			height: 480px;
+			margin: 20px auto;
+			position: relative;
+			width: 1000px;
+		}
+		div.ovni{
+			background: url(imgs/space.gif) no-repeat center;
+			background-size: ;
+			height: 260px;
+			position: absolute;
+			width: 350px;
+
+			animation: aniovni 10s;
+		}
+		@keyframes aniovni{
+			0%{
+				left:0px;
+				transform: rotateY(0deg);
+			}
+			50%{
+				left:600px;
+				transform: rotateY(0deg);
+			}
+			51%{
+				left:600px;
+				transform: rotateY(180deg);
+			}
+			100%{
+				left:0px;
+				transform: rotateY(180deg);
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Animaciones</h1>
+		</header>
+		<section>
+			<div class="ovni"></div>
+		</section>
+	</main>
+	
+</body>
+</html>

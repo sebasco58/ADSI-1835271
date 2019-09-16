@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>media queries</title>
+	<style>
+		*{
+			transition: all 0.5s ease-in;
+		}
+		body{
+			background-color: #013571;
+			color: rgba(255,255,255,0.6);
+			font:16px Tahoma;
+		}
+		main{
+			border:10px solid rgba(255,255,255,0.2) ;
+			margin: 20px auto;
+			padding: 20PX;
+			width: 950px;
+		}
+		main figure.logo{
+			background: url(imgs/pepsi01.png) no-repeat center;
+			height: 354px;
+			width: 919px;
+			margin:0px auto;
+		}
+		main h1 small.bp2,main h1 small.bp3{
+			display: none;
+		}
+		main p{
+			line-height: 1.8em;
+			text-align: justify;
+		}
+		@media (max-width: 1024px){
+			main{
+				width: 740px;
+			}
+			main figure.logo{
+				background: url(imgs/pepsi02.png) no-repeat center;
+				height: 370px;
+				width: 348px;
+			}
+			main h1 small.bp1,{
+
+			}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<figura class="logo"></figura>
+		<h1>Media Queries <small class="bp1">1024px</small><small class="bp2">800px</small><small class="bp3">480px</small></h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illum, aspernatur reprehenderit magni cum, veniam, esse mollitia hic, fugit officiis ex sunt odio autem tempore suscipit pariatur dolor tenetur earum rerum! Totam, vel adipisci veritatis neque quia, earum, nobis velit beatae molestiae minus dolore enim sequi ex animi veniam. Perferendis animi, facilis, deserunt dolorem omnis molestias, consectetur sit reiciendis iusto aperiam excepturi at tenetur fugiat nam, saepe consequuntur laborum. Porro perferendis modi laboriosam explicabo, optio deleniti sint! Voluptatum sed ex quasi! Sed eaque ducimus nemo magni atque, commodi dolores molestias voluptate quo laboriosam cumque consequatur in excepturi libero. Sint eum blanditiis perspiciatis facere perferendis nostrum error sapiente fugiat autem numquam, magnam itaque natus quae ex aspernatur quas optio nihil iste. Asperiores sint ut dicta magnam modi, error iure quam consequuntur. Vero similique suscipit, asperiores mollitia ab beatae consequuntur autem porro minima non voluptates tenetur corrupti nobis laudantium sunt, rerum. Sed modi aperiam, libero a perferendis quibusdam, possimus voluptatum, consequatur labore exercitationem, id et rem voluptates est magni ipsum? Sunt minus nihil deleniti accusantium saepe officiis porro nobis culpa nam fugiat praesentium architecto doloribus ratione illo non nemo impedit ducimus, quidem suscipit? Ratione at quod dignissimos enim. Facilis, assumenda, a. Ipsa.
+		</p>
+	</main>
+</body>
+</html>
