@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<style>
+		body{
+			font:16px arial;
+			color:#045F33 
+		}
+		ul.fruits{
+			background-color: #631AE9;
+			border-radius: 4px;
+			display: flex;
+			height: 768px;
+			list-style: none;
+			padding: 0px;
+			margin: 0px 0px;
+
+		}
+		ul.fruits li{
+			background-color: #A2B030;
+			border-radius: 4px;
+			margin: 4px;
+
+		}
+		ul.fruits.option1 {flex-direction: row-reverse; on container}
+		ul.fruits.option2 {flex-direction: column-reverse; on container}
+		ul.fruits.option3 { flex-direction: row; on container }
+		ul.fruits.option4 { flex-direction: column; on container }
+	</style>
+</head>
+<body>
+	<section>
+		<h1>flex-direction: row-reverse; on container</h1>
+	<ul class="fruits option1">
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+	</ul>
+	</section>
+	<section>
+		<h1>flex-direction: column-reverse; on container</h1>
+	<ul class="fruits option2">
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+	</ul>
+</section>
+<section>
+		<h1>flex-direction: column-reverse; on container</h1>
+	<ul class="fruits option3">
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+	</ul>
+</section>
+<section>
+		<h1>flex-direction: column-reverse; on container</h1>
+	<ul class="fruits option4">
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+		<li><img src="imgs/grapes.svg" alt=""></li>
+		<li><img src="imgs/orange.svg" alt=""></li>
+		<li><img src="imgs/pear.svg" alt=""></li>
+	</ul>
+</section>
+	
+
+</body>
+</html>

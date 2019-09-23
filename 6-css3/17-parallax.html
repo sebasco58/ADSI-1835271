@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>para</title>
+	<style>
+		section.para {
+			height: 768px;
+			margin: 20px auto;
+			overflow: hidden;
+			position: relative;
+			width: 1024px ;
+		}
+		section.para div {
+			background-repeat: repeat-x;
+			background-position: center;
+			height: 768px;
+			position: absolute;
+		}
+		section.para div.layer8 {
+			background: url(imgs/layer_08.png);
+			z-index: 1;
+			animation: ani 160s linear infinite;
+		}
+		section.para div.layer7 {
+			background: url(imgs/layer_07.png);
+			z-index: 2;
+			animation: ani 140s linear infinite;
+		}
+		section.para div.layer6 {
+			background: url(imgs/layer_06.png);
+			z-index: 3;
+			animation: ani 120s linear infinite;
+		}
+		section.para div.layer5 {
+			background: url(imgs/layer_05.png);
+			z-index: 4;
+			animation: ani 100s linear infinite;
+		}
+		section.para div.layer4 {
+			background: url(imgs/layer_04.png);
+			z-index: 5;
+			animation: ani 80s linear infinite;
+		}
+		section.para div.layer3 {
+			background: url(imgs/layer_03.png);
+			z-index: 6;
+			animation: ani 60s linear infinite;
+		}
+		section.para div.layer2 {
+			background: url(imgs/layer_02.png);
+			z-index: 7;
+			animation: ani 40s linear infinite;
+		}
+		section.para div.layer1 {
+			background: url(imgs/layer_01.png);
+			z-index: 8;
+			animation: ani 10s linear infinite;
+		}
+		@keyframes ani{
+			0%{background-position: 0px 0px;}
+			100%{background-position: -2048px 0px;}
+		}
+	</style>
+</head>
+<body>
+		<h1>parallax</h1>
+		<section class="para">
+				<div class="layer8"></div>
+				<div class="layer7"></div>
+				<div class="layer6"></div>
+				<div class="layer5"></div>
+				<div class="layer4"></div>
+				<div class="layer3"></div>
+				<div class="layer2"></div>
+				<div class="layer1"></div>
+		</section>
+</body>
+</html>

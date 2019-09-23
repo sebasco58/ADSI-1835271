@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>aniamcion(steep)</title>
+	<link rel="stylesheet" href="css/master.css">
+	<style>
+		div.steps{
+			background: url(imgs/steps.png) no-repeat center left;
+			height: 509px;
+			margin: 20px auto;
+			width:200px ;
+			animation: animsteps 2s steps(10) infinite;
+		}
+		div.moster{
+			background: url(imgs/steps2.png) no-repeat center left;
+			height:240px;
+			margin:20px auto;
+			width: 190px;
+			position: relative;
+			animation: ani 2s steps(10) infinite;
+		}
+		@keyframes animsteps{
+			100%{
+				background-position: -2000px;
+			}
+		@keyframes ani{
+			100%{
+				background-position: -1900px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>animaciones steeps</h1>
+		</header>
+		<section>
+			<div class="steps"></div>
+			<div class="moster"></div>		
+		</section>
+	</main>
+	
+</body>
+</html>
