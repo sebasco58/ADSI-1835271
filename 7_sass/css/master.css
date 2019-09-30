@@ -1,0 +1,18 @@
+body {
+  background: #d519c6;
+  font: 16px arial;
+}
+body main {
+  background-color: #ffffff;
+  padding: 20PX;
+  margin: 20px auto;
+  width: 960px;
+}
+body main header h1, body main header h2, body main header h3 {
+  color: #6408e1;
+  border-bottom: 20px solid #6408e1;
+  text-align: center;
+}
+body main section.content {
+  color: #5f5e60;
+}

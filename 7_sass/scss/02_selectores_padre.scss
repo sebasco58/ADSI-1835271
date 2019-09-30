@@ -1,0 +1,50 @@
+article {
+	border: 4px solid #4E26CE;
+	display: inline-block;
+	height: 380px;
+	margin: 2px;
+	overflow: hidden;
+	width: calc(960px / 3.2px);
+	figure {
+		background: url(../imgs/dark.jpg) no-repeat center top;
+		background-size: 140%;
+		height: 400px;
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		transition: all 0.5s ease-in-out;
+		div {
+			background-color: #000000;
+			top: -100px;
+			padding: 20px 0px;
+			position: absolute;
+			transition:  all 0.6s 0.2s ease-in;
+			text-align: center;
+			width: calc(960px / 3.2);
+			button {
+				border: 1px solid #970DCA;
+				border-radius: 20px;
+				background-color: #000000;
+				color: #970DCA;
+				font-size: 1em;
+				padding: 10px;
+				width: 120px;
+				&:hover {
+					cursor: pointer;
+					background-color: #970DCA;
+					border: 1px solid #000000;
+					color: #000;
+				}
+
+			}
+		}
+
+	}
+	&:hover figure{
+		cursor: pointer;
+		background-size: 100%;
+	}
+	&:hover figure div{
+		top: 0px;
+	}
+}
